@@ -1,7 +1,7 @@
-#Mon Aug 01 20:27:09 CDT 2022
-base.1=/Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+#Mon Aug 01 21:23:21 CDT 2022
+base.1=/Users/shahrukhmalik/Documents/AndroidStudioProjects/AdobeAccessEnablerSDK/AdobePassDemo/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
 path.1=classes.dex
-base.0=/Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+base.0=/Users/shahrukhmalik/Documents/AndroidStudioProjects/AdobeAccessEnablerSDK/AdobePassDemo/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

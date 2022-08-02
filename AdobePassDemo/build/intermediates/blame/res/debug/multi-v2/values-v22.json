@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "/Users/shahrukhmalik/Documents/AndroidStudioProjects/AdobeAccessEnablerSDK/AdobePassDemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "/Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/5e7cda850f65831b268837c217e059f1/appcompat-1.2.0/res/values-v22/values-v22.xml",
