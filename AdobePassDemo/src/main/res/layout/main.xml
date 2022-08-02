@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/view_group_init_and_logout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/Separator"
+                    android:text="@string/separatorInitAndLogout" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblRequestorID"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_requestor_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.27"
+                        android:inputType="text"
+                        android:text="" />
+
+                    <Button
+                        android:id="@+id/btn_set_requestor_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnSetRequestor" />
+
+                    <Button
+                        android:id="@+id/btn_global_options"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Options" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_storage_viewer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnStorageViewer" />
+
+                    <Button
+                        android:id="@+id/btn_show_preferences"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnShowPreferences" />
+
+                    <Button
+                        android:id="@+id/btn_temp_pass_reset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnTempPassResetActivity" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_group_authn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Separator"
+                    android:text="@string/separatorAuthentication" />
+
+                <Button
+                    android:id="@+id/btn_check_authn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnCheckAuthentication" />
+
+                <LinearLayout
+                    android:id="@+id/view_group_authn_inner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/btn_get_authn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnGetAuthentication" />
+
+                    <Button
+                        android:id="@+id/btn_get_authn_with_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnGetAuthenticationWithData" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnLogout" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_group_authz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Separator"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:enabled="true"
+                    android:text="@string/separatorAuthorization" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_resource_id"
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="text"
+                        android:text="" />
+
+                    <Switch
+                        android:id="@+id/switch_preauthz_cache"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="@string/PreauthzText" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_check_preauthz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnCheckPreauthorizedResources" />
+
+                <LinearLayout android:id="@+id/view_group_authorize_inner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_preauthorize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnPreauthorize" />
+
+                    <Button
+                        android:id="@+id/btn_authorize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnAuthorize" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/view_group_authz_inner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_check_authz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnCheckAuthorization" />
+
+                    <Button
+                        android:id="@+id/btn_check_authz_with_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnCheckAuthorizationWithData" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/view_group_authz_with_data_inner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_get_authz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnGetAuthorization" />
+
+                    <Button
+                        android:id="@+id/btn_get_authz_with_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnGetAuthorizationWithData" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_group_user_metadata"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Separator"
+                    android:text="@string/separatorUserMetadata" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblUserMetadataName"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_user_metadata"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:inputType="text"
+                        android:text="" />
+
+                    <Button
+                        android:id="@+id/btn_get_user_metadata"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnGetUserMetadata" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_group_selected_provider"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Separator"
+                    android:text="@string/separatorSelectedProvider" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblSelectedProviderName"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_selected_provider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:inputType="text"
+                        android:text="" />
+
+                    <Button
+                        android:id="@+id/btn_set_selected_provider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btnSetSelectedProvider" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText android:id="@+id/edit_user_metadata_status"
+                      android:layout_width="wrap_content"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:text=""
+                      android:inputType="text"
+                      android:visibility="invisible"  />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

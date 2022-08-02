@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+    <TextView style="@style/Separator"
+              android:text="@string/separatorGenericDataEditBoxes"/>
+    <TextView
+            android:text="@string/genericDataLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/generic_data_edit"
+            android:inputType="text"/>
+    <TextView
+            android:id="@+id/force_authn_label"
+            android:text="@string/forceAuthnLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/force_authn_edit"
+            android:inputType="text"/>
+
+    <TextView style="@style/Separator"
+              android:text="@string/separatorGenericDataButtons"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+        <Button android:id="@+id/btn_generic_data_ok"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnGenericDataOk"/>
+        <Button android:id="@+id/btn_generic_data_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnGenericDataCancel"/>
+    </LinearLayout>
+</LinearLayout>

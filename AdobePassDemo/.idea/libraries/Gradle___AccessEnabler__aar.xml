@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :AccessEnabler:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

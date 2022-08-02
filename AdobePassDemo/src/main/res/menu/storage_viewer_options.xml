@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:enabled="true" android:titleCondensed="@string/expand_all_menu" android:visible="true"
+		android:title="@string/expand_all_menu" android:id="@+id/expand_all_menu_item" android:numericShortcut="8"
+		android:alphabeticShortcut="h" />
+	<item android:titleCondensed="@string/collapse_all_menu" android:title="@string/collapse_all_menu"
+		android:alphabeticShortcut="i" android:visible="true" android:enabled="true" android:numericShortcut="9"
+		android:id="@+id/collapse_all_menu_item" />
+</menu>

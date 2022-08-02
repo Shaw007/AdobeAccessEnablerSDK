@@ -1,0 +1,320 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/5e7cda850f65831b268837c217e059f1/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/71af72d5d5bfa5f0ee2854312d246b33/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/8e4d009e887687f4d91a031e55f49705/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e332f67d715f8930d6f286b651eba3df/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/805f8e714065e9919e560568eba9dd5f/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/af990d1138e04f684ff789be51137fa7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/f8dfd297736d6189047c93af34db3584/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ce74c48716db577f5ef5e88d85f1525e/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/5eaa4775f69ec8c27612acfd4eae2f7a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/8813f29abc5fa3ec4ab9a74e3bdbdac5/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/cf8adc67050424f79124cfbc357aa063/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/522209f5e65976cdad812eb0ec89b056/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/271fa7b6c2517daacf9a53c5df826e00/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/22c2a1fff8fd057b3f5e1232e247505a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/d89a2dbd7267ac650c3cf51246f76dd2/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/72a3ca0b3ac5142ac23738ec8758f78a/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/1b74599faef73963a64d2776ff540509/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/44e5e8111055bb3caff58e72e5adc0d2/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/9fe7241e5f6acacdc0140912832fb118/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/bdd734d5cfc6273a6930132834af712b/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:2:1-70:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/eb1d7d5cac208fb17503ab4d8ae047f9/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ae599d18dc62c285c2cf1d360caacd25/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/0be4443613c514fa87462d039d6a1edc/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e27222f2a79ca1c86c0d2e7fd60a6b94/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/6e306408a2a543890cf5c04c4455384d/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/0a26cb729d0152e6394079774faab86a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b76d9107d79677eefed257559408360c/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/54edba5fca4ebc62ae73f3ca27bccce7/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e89e58cacde6b8505452a825e7d8f922/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/d0e787923cf0c2e760984a8f4a57819b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/96c1d7e1d4375ae1e2bc0f266259120f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/dcb45a4c195c207de8f76b0e79edc2dd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:5:5-44
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:3:5-63
+	tools:ignore
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:6:5-35
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:8:5-78
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:11:5-79
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:9:5-66
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:12:5-67
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:10:5-67
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:13:5-68
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:10:22-65
+application
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:12:5-56:19
+MERGED from [androidx.core:core:1.3.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/bdd734d5cfc6273a6930132834af712b/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/bdd734d5cfc6273a6930132834af712b/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:29:5-68:19
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:29:5-68:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ae599d18dc62c285c2cf1d360caacd25/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ae599d18dc62c285c2cf1d360caacd25/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:18:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/bdd734d5cfc6273a6930132834af712b/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:16:9-38
+	android:theme
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:15:9-47
+	android:networkSecurityConfig
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:17:9-69
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:14:9-41
+uses-library#org.apache.http.legacy
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:20:9-87
+	android:required
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:20:61-85
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:20:23-60
+activity#com.adobe.adobepass.apps.demo.ui.MainActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:22:9-32:20
+	android:exported
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:24:13-51
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:23:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:26:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:27:17-28:64
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:28:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:29:17-30:70
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:30:21-68
+activity#com.adobe.adobepass.apps.demo.ui.MvpdPickerActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:34:9-35:52
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:35:13-50
+activity#com.adobe.adobepass.apps.demo.ui.MvpdLoginActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:36:9-37:51
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:37:13-49
+activity#com.adobe.adobepass.apps.demo.ui.PreferencesActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:38:9-40:54
+	android:label
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:40:13-52
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:39:13-51
+activity#com.adobe.adobepass.apps.demo.ui.TempPassResetActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:41:9-43:46
+	android:label
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:42:13-53
+activity#com.adobe.adobepass.apps.demo.ui.storageviewer.StorageViewerActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:44:9-45:69
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:45:13-67
+activity#com.adobe.adobepass.apps.demo.ui.GenericDataActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:46:9-47:53
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:47:13-51
+activity#com.adobe.adobepass.apps.demo.ui.OptionsActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:48:9-49:49
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:49:13-47
+activity#com.adobe.adobepass.apps.demo.ui.SetSoftwareStatementActivity
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:50:9-52:59
+	android:theme
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:52:13-57
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:51:13-60
+uses-library#android.test.runner
+ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:54:9-55:49
+	android:name
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml:55:13-47
+uses-sdk
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/5e7cda850f65831b268837c217e059f1/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/5e7cda850f65831b268837c217e059f1/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/71af72d5d5bfa5f0ee2854312d246b33/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/71af72d5d5bfa5f0ee2854312d246b33/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/8e4d009e887687f4d91a031e55f49705/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/8e4d009e887687f4d91a031e55f49705/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e332f67d715f8930d6f286b651eba3df/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e332f67d715f8930d6f286b651eba3df/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/805f8e714065e9919e560568eba9dd5f/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/805f8e714065e9919e560568eba9dd5f/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/af990d1138e04f684ff789be51137fa7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/af990d1138e04f684ff789be51137fa7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/f8dfd297736d6189047c93af34db3584/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/f8dfd297736d6189047c93af34db3584/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ce74c48716db577f5ef5e88d85f1525e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ce74c48716db577f5ef5e88d85f1525e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/5eaa4775f69ec8c27612acfd4eae2f7a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/5eaa4775f69ec8c27612acfd4eae2f7a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/8813f29abc5fa3ec4ab9a74e3bdbdac5/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/8813f29abc5fa3ec4ab9a74e3bdbdac5/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/cf8adc67050424f79124cfbc357aa063/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/cf8adc67050424f79124cfbc357aa063/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/522209f5e65976cdad812eb0ec89b056/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/522209f5e65976cdad812eb0ec89b056/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/271fa7b6c2517daacf9a53c5df826e00/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/271fa7b6c2517daacf9a53c5df826e00/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/22c2a1fff8fd057b3f5e1232e247505a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/22c2a1fff8fd057b3f5e1232e247505a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/d89a2dbd7267ac650c3cf51246f76dd2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/d89a2dbd7267ac650c3cf51246f76dd2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/72a3ca0b3ac5142ac23738ec8758f78a/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/72a3ca0b3ac5142ac23738ec8758f78a/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/1b74599faef73963a64d2776ff540509/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/1b74599faef73963a64d2776ff540509/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/44e5e8111055bb3caff58e72e5adc0d2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/44e5e8111055bb3caff58e72e5adc0d2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/9fe7241e5f6acacdc0140912832fb118/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/9fe7241e5f6acacdc0140912832fb118/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/bdd734d5cfc6273a6930132834af712b/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/bdd734d5cfc6273a6930132834af712b/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:7:5-9:41
+MERGED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/eb1d7d5cac208fb17503ab4d8ae047f9/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/eb1d7d5cac208fb17503ab4d8ae047f9/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ae599d18dc62c285c2cf1d360caacd25/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/ae599d18dc62c285c2cf1d360caacd25/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/0be4443613c514fa87462d039d6a1edc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/0be4443613c514fa87462d039d6a1edc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e27222f2a79ca1c86c0d2e7fd60a6b94/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e27222f2a79ca1c86c0d2e7fd60a6b94/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/6e306408a2a543890cf5c04c4455384d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/6e306408a2a543890cf5c04c4455384d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/0a26cb729d0152e6394079774faab86a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/0a26cb729d0152e6394079774faab86a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b76d9107d79677eefed257559408360c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b76d9107d79677eefed257559408360c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/54edba5fca4ebc62ae73f3ca27bccce7/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/54edba5fca4ebc62ae73f3ca27bccce7/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e89e58cacde6b8505452a825e7d8f922/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/e89e58cacde6b8505452a825e7d8f922/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/d0e787923cf0c2e760984a8f4a57819b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/d0e787923cf0c2e760984a8f4a57819b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/96c1d7e1d4375ae1e2bc0f266259120f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/96c1d7e1d4375ae1e2bc0f266259120f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/dcb45a4c195c207de8f76b0e79edc2dd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/dcb45a4c195c207de8f76b0e79edc2dd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahrukhmalik/Downloads/AccessEnabler-android-3.7.1/AdobePassDemo/src/main/AndroidManifest.xml
+queries
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:15:5-27:15
+package#com.android.chrome
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:16:9-54
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:16:18-51
+intent
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:18:9-20:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:19:13-90
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:19:21-87
+activity#com.adobe.adobepass.accessenabler.api.utils.android.CustomTabManager
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:32:9-35:20
+	android:launchMode
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:33:13-96
+activity#com.adobe.adobepass.accessenabler.api.utils.android.CustomTabGetAuthN
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:36:9-51:20
+	android:launchMode
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:39:13-44
+	android:exported
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:38:13-36
+	android:theme
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:40:13-59
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:37:13-97
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/redirect_uri+data:scheme:adobepass
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:41:13-50:29
+action#android.intent.action.VIEW
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:42:25-66
+category#android.intent.category.DEFAULT
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:44:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:45:17-78
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:45:27-75
+data
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:47:17-49:50
+	android:host
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:48:21-56
+	android:scheme
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:49:21-47
+provider#com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:53:9-58:20
+	android:grantUriPermissions
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:57:13-47
+	android:authorities
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:55:13-73
+	android:exported
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:54:13-115
+receiver#com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageBroadcastRequestReceiver
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:60:9-67:20
+	android:exported
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:62:13-36
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:61:13-131
+intent-filter#action:name:com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_ELECTION+action:name:com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_INQUIRY
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:63:13-66:29
+action#com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_INQUIRY
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:64:17-128
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:64:25-125
+action#com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_ELECTION
+ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:65:17-129
+	android:name
+		ADDED from [:AccessEnabler:] /Users/shahrukhmalik/.gradle/caches/transforms-2/files-2.1/b2b01f317dd18744724bd4023bf315a9/AccessEnabler/AndroidManifest.xml:65:25-126

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView style="@style/Separator"
+        android:text="@string/separatorPrefSigningCredential"/>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group_signing_credential"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_signing_credential_1024"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioSigningCredential1024"/>
+        <RadioButton android:id="@+id/radio_signing_credential_2048"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioSigningCredential2048"/>
+    </RadioGroup>
+
+    <TextView style="@style/Separator"
+        android:text="@string/separatorPrefHttpProtocol"/>
+    <CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/checkbox_https"
+        android:text="Use HTTPS"
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView style="@style/Separator"
+        android:text="@string/separatorPrefActions"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button android:id="@+id/btn_preferences_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnPreferencesOk"/>
+        <Button android:id="@+id/btn_preferences_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnPreferencesCancel"/>
+    </LinearLayout>
+</LinearLayout>

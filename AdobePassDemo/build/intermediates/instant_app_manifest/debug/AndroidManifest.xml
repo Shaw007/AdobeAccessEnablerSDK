@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adobe.adobepass.adobepassdemo"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="unspecified" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <queries>
+        <package android:name="com.android.chrome" />
+
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+        <intent>
+            <action android:name="com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_INQUIRY" />
+        </intent>
+        <intent>
+            <action android:name="com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_ELECTION" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.adobe.adobepass.apps.demo.AdobePassDemoApp"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.adobe.adobepass.apps.demo.ui.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adobe.adobepass.apps.demo.ui.MvpdPickerActivity" />
+        <activity android:name="com.adobe.adobepass.apps.demo.ui.MvpdLoginActivity" />
+        <activity
+            android:name="com.adobe.adobepass.apps.demo.ui.PreferencesActivity"
+            android:label="Application Preferences" />
+        <activity
+            android:name="com.adobe.adobepass.apps.demo.ui.TempPassResetActivity"
+            android:label="Temp Pass Reset" />
+        <activity android:name="com.adobe.adobepass.apps.demo.ui.storageviewer.StorageViewerActivity" />
+        <activity android:name="com.adobe.adobepass.apps.demo.ui.GenericDataActivity" />
+        <activity android:name="com.adobe.adobepass.apps.demo.ui.OptionsActivity" />
+        <activity
+            android:name="com.adobe.adobepass.apps.demo.ui.SetSoftwareStatementActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.adobe.adobepass.accessenabler.api.utils.android.CustomTabManager"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.adobe.adobepass.accessenabler.api.utils.android.CustomTabGetAuthN"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/redirect_uri"
+                    android:scheme="adobepass" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageProvider"
+            android:authorities="com.adobe.adobepass.adobepassdemo.GlobalStorageProvider"
+            android:exported="true"
+            android:grantUriPermissions="true" >
+        </provider>
+
+        <receiver
+            android:name="com.adobe.adobepass.accessenabler.services.storage.android.global.GlobalStorageBroadcastRequestReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_INQUIRY" />
+                <action android:name="com.adobe.adobepass.accessenabler.services.storage.global.GLOBAL_DATABASE_URI_ELECTION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

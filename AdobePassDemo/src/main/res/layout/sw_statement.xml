@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <TextView
+        android:id="@+id/swstatement_details"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="@string/swstatement_details"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/software_statement_title" />
+
+    <EditText
+        android:id="@+id/editSoftwareStatement"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/sw_hint"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/redirect_url_title" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/redirect_uri" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/environment_label" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_environment"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:checkedButton="@+id/radioButtonProd"
+        android:paddingTop="5dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonProd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/production_env_label" />
+
+        <RadioButton
+            android:id="@+id/radioButtonStaging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/staging_env_label" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sw_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_button" />
+
+</LinearLayout>

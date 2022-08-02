@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"unspecified","enabled":true,"outputFile":"AdobePassDemo-debug.apk","fullName":"debug","baseName":"debug","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.adobe.adobepass.adobepassdemo","split":"","minSdkVersion":"21"}}]
